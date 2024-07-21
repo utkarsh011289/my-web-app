@@ -1,0 +1,20 @@
+[
+    {
+        "path":"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "altText":"First Slide",
+        "title":"Google Logo Image",
+        "subTitle":"Google is the web search engine which is most popular in the whole world"
+    },
+    {
+        "path":"https://c.ndtvimg.com/2024-06/b66g8qb_rahul-dravid-twitter_625x300_20_June_24.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
+        "altText":"Second Slide",
+        "title":"Rahul Dravid Image",
+        "subTitle":"Rahul Dravid also known as the wall. currently he is the coach of indian cricket team."
+    },
+    {
+        "path":"https://st2.zoom.us/static/6.3.23157/image/new/topNav/Zoom_logo.svg",
+        "altText":"Third Slide",
+        "title":"Zoom  Logo Image",
+        "subTitle":"Zoom is the popular web confrencing web app."
+    }
+]
