@@ -3,6 +3,6 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <div data-testId="header" className='header'>My First Next App</div>
+    <div data-testId="header" className='header'>My First REACT App</div>
   )
 }
