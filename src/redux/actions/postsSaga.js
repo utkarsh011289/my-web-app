@@ -1,8 +1,14 @@
-import { takeLatest } from 'redux-saga/effects'
+import { takeLatest , call, put } from 'redux-saga/effects'
+import sendGetReq from '@/services/ajax'
 
 function* getPosts() {
 
-      alert('get posts')
+  const res =   yield call( sendGetReq, "https://jsonplaceholder.typicode.com/posts" )
+  console.log(222, res)
+  yield put({
+      type: "UPDATE_POSTS" ,
+      payload: res.data
+  })
 }
 
 function* getPostById() {
