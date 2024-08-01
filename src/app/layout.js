@@ -35,6 +35,11 @@ const menuItems=[
     id:'photos',
     path:'photos',
     text:'Photos'
+  },
+  {
+    id:'posts',
+    path:'posts',
+    text:'Posts'
   }
 ]
 

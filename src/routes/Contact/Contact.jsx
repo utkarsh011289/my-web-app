@@ -2,6 +2,8 @@
 import React from 'react'
 import Table , { Accordian, NitList } from 'my-first-lib-indianit'
 
+import { photosAction } from '@/redux/actions/photoAction'
+
 export const Contact = () => {
   const data=[
     {
@@ -27,6 +29,8 @@ export const Contact = () => {
            />
            <Accordian  data={data}/>
            <NitList data={['s1','s2','s3']} />
+
+           <button onClick={ photosAction }>get photos</button>
     </div>
   )
 }
